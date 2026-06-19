@@ -1,22 +1,11 @@
 <div align="center">
 
 <!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Accenture%20HR%20Analytics&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Power%20BI%20Dashboard%20%7C%20Workforce%20Intelligence&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=104,64,157&height=200&section=header&text=Accenture%20HR%20Analytcal%20Dashboard&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Power%20BI%20Dashboard&descAlignY=58&descSize=16" width="100%"/>
 
-<!-- Title & Subtitle -->
-<h1>📊 Accenture HR Analytics Dashboard</h1>
+<!-- Subtitle -->
+---
 <p><em>End-to-end Workforce Intelligence built on a Star-Schema data model · Powered by Power BI</em></p>
-
-<!-- Badges Row 1 — Author & Status -->
-<a href="https://github.com/RENSEE-GAJIPARA">
-  <img src="https://img.shields.io/badge/Author-RENSEE%20GAJIPARA-7c3aed?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://linkedin.com/in/rensee-gajipara">
-  <img src="https://img.shields.io/badge/LinkedIn-rensee--gajipara-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<img src="https://img.shields.io/badge/Status-Completed-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white"/>
-
-<br/><br/>
 
 <!-- Badges Row 2 — Tech Stack -->
 <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
@@ -36,19 +25,6 @@
 
 </div>
 
----
-
-## 🖼️ Dashboard Preview
-
-<div align="center">
-
-> **Workforce Overview** · the flagship page of a 5-page interactive report
-
-<img src="https://raw.githubusercontent.com/RENSEE-GAJIPARA/RENSEE-GAJIPARA/main/assets/accenture_hr_dashboard_preview.png" alt="Workforce Overview Dashboard" width="90%" style="border-radius:12px; box-shadow: 0 4px 24px rgba(124,58,237,0.25);"/>
-
-*Replace the image path above with the actual hosted screenshot URL after uploading to your repository.*
-
-</div>
 
 ---
 
@@ -69,7 +45,7 @@
 
 ## 🌟 Project Overview
 
-This project delivers a **comprehensive HR Analytics solution** modelled on an Accenture-style enterprise workforce dataset. It transforms raw HR data across 11 CSV tables into an interactive **5-page Power BI report** with cross-filtered slicers, KPI cards, custom DAX measures, and a Bing Maps employee-distribution layer.
+This project delivers a **comprehensive HR Analytics solution** modelled on an Accenture-style enterprise workforce dataset. It transforms raw HR data across 11 CSV tables into an interactive **4-page Power BI report** with cross-filtered slicers, KPI cards, custom DAX measures, and a Bing Maps employee-distribution layer.
 
 The dashboard enables HR leaders and business partners to answer questions like:
 
@@ -102,9 +78,19 @@ The dashboard enables HR leaders and business partners to answer questions like:
 | 2 | **Attrition & Retention** | Attrition drivers, department heatmaps, exit-reason breakdown |
 | 3 | **Compensation Analysis** | Salary bands, bonus distribution, pay equity by gender & level |
 | 4 | **Performance & Promotion** | Rating distributions, high-performer %, promotion flags by department |
-| 5 | **Recruitment & Training** | Funnel stage analysis, source effectiveness, training completion by category |
 
 All pages share a **unified slicer panel**: Year · Department · City · Gender · Job Level, with a one-click *Clear All Slicers* button.
+
+---
+
+## 🖼️ Dashboard Preview
+
+<div align="center">
+
+> **Workforce Overview** · the flagship page of a 4-page interactive report
+<img width="1207" height="686" alt="Dashboard" src="https://github.com/user-attachments/assets/fa9c3f89-3ba2-4878-ae67-623fb262c425" />
+
+</div>
 
 ---
 
@@ -174,7 +160,6 @@ All pages share a **unified slicer panel**: Year · Department · City · Gender
 | Tool | Purpose |
 |------|---------|
 | ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black&style=flat-square) | Report authoring, DAX measures, data modelling |
-| ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square) | Data generation & preprocessing |
 | ![CSV](https://img.shields.io/badge/CSV-217346?logo=microsoftexcel&logoColor=white&style=flat-square) | Raw dataset format |
 | **DAX** | KPI calculations, dynamic measures, time intelligence |
 | **Bing Maps** | Employee geospatial distribution visual |
